@@ -21,8 +21,6 @@ Neste projeto foi criado uma aplicação web que utiliza a **GitHub API** para b
 
 ![Gif do Projeto API do GitHub](./src/gif/gif-projeto-github.gif)
 
----
-
 ## 🚀 Funcionalidades
 
 🔎 **Busca de usuários do GitHub pelo nome de usuário 👤**
@@ -53,7 +51,6 @@ Neste projeto foi criado uma aplicação web que utiliza a **GitHub API** para b
 - **Fetch API**: Conexão com a API
 
 - **Modularização com ES Modules**: Organização do código
-<br>
 <br>
 <div style="display: inline_block">
     <img align="center" alt="icone-HTML" height="60" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
