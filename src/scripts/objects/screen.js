@@ -7,9 +7,9 @@ const screen = {
                                             <h1>${user.name ?? 'Não possui nome cadastrado 😓'}</h1>
                                              <p>${user.bio ?? 'Não possui nome cadastrado 😓'}</p>
                                              <p>
-                                             <span>Seguidores: ${user.followers}<span>
+                                             <span>Seguidores: ${user.followers ?? 'N/D'}</span>
                                              <br>
-                                             <span>Seguindo: ${user.following}<span>
+                                             <span>Seguindo: ${user.following ?? 'N/D'}</span>
                                             </div>
                                         </div>`
         let repositoriesItens = ''
@@ -19,9 +19,9 @@ const screen = {
                                <strong>${repo.name}</strong>
                               <div class="repo-info-line">
                                <span class="emoji-box">🧑‍💻${repo.language ?? 'N/D'}</span>
-                               <span class="emoji-box">⭐${repo.stargazers_count}</span>
-                               <span class="emoji-box">👀${repo.watchers_count}</span>
-                               <span class="emoji-box">🍴${repo.forks_count}</span>
+                               <span class="emoji-box">⭐${repo.stargazers_count ?? 'N/D'}</span>
+                               <span class="emoji-box">👀${repo.watchers_count ?? 'N/D'}</span>
+                               <span class="emoji-box">🍴${repo.forks_count ?? 'N/D'}</span>
                              </div>
                              </a>
                              </li>`
